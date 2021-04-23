@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.logo {
+  display: flex;
+}
+.logo img {
+  width: 10%;
+  margin-top: -32px;
+}
+.logo h1 {
+  margin: 9px -25px;
+}
+.menu {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  position: absolute;
+  right: 20px;
+  top: 22px;
+}
+.button {
+  border: 1px solid black;
+  border-radius: 10px;
+}
+.menu a {
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+  padding: 1em;
+}
+.column {
+  display: flex;
+}
+.left {
+  width: 50%;
+  font-size: 30px;
+  padding: 100px 50px;
+}
+.left p {
+  padding-top: 15px;
+  font-size: 16px;
+}
+.left a {
+  border: 1px solid black;
+  text-decoration: none;
+}
+/* .right {
+  width: 50%;
+} */
+.pcr-test h1{
+  font-size: 2em;
+  text-align: center;
+  padding: 2em;
+}
+ .pcr-test .row{
+  display: flex;
+  justify-content: space-evenly;
+}
+.pcr-test p{
+  padding: 1em;
+}
+.main{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 7em;
+  padding-bottom: 3em;
+}
+.heading1 a{
+  padding: 10px;
+  text-decoration: none;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 2em;
+}
+ /* .countries{
+   margin: 5em; 
+
+  display: flex;
+  justify-content: center;
+} */
+.uk{
+  border: 1px solid black;
+  border-radius: 20px 0 20px 0;
+  padding-bottom: 10em;
+}
+.uk1,p,a{
+
+  bottom: 120px;
+  left: 8px;
+  padding: 12px;
+}
+.countries1{
+  display: grid;
+  grid-template-columns:  33%  33%  33%;
+  
+}
