@@ -50,50 +50,45 @@
 /* .right {
   width: 50%;
 } */
-.pcr-test h1{
+.pcr-test h1 {
   font-size: 2em;
   text-align: center;
   padding: 2em;
 }
- .pcr-test .row{
+.pcr-test .row {
   display: flex;
   justify-content: space-evenly;
 }
-.pcr-test p{
+.pcr-test p {
   padding: 1em;
 }
-.main{
+.main {
   display: flex;
   justify-content: space-between;
   padding-top: 7em;
   padding-bottom: 3em;
 }
-.heading1 a{
-  padding: 10px;
+.heading1 {
+  margin-right: 108px;
+}
+.heading1 a {
+  padding: 8px 8px;
   text-decoration: none;
   border: 1px solid black;
   border-radius: 10px;
-  margin: 2em;
 }
- /* .countries{
-   margin: 5em; 
-
-  display: flex;
-  justify-content: center;
-} */
-.uk{
+.countries {
+  margin-left: 8em;
+}
+.uk {
   border: 1px solid black;
   border-radius: 20px 0 20px 0;
   padding-bottom: 10em;
 }
-.uk1,p,a{
-
-  bottom: 120px;
-  left: 8px;
-  padding: 12px;
+.uk, a{
+  text-decoration: none;
 }
-.countries1{
+.countries1 {
   display: grid;
-  grid-template-columns:  33%  33%  33%;
-  
+  grid-template-columns: 33% 33% 33%;
 }
